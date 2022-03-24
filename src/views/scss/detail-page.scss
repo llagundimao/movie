@@ -1,0 +1,25 @@
+.detail-container {
+  height: 87vh;
+  background-color: rgba(0,0,0, 0.7);
+  margin-top: 30px;
+
+  .MuiGrid-item {
+    padding-left: 0;
+  }
+
+  .detail-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 0;
+    color: #fff;
+  }
+
+  .box-rating-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,44 @@
+.mdc-icon-button {
+  color: #000!important;
+}
+
+.header-panel {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  background-color: #ffc107;
+
+  .movie-logo {
+    width: 20%;
+    font-size: 3em;
+    font-family: monospace;
+    text-align: center;
+  }
+
+  nav { 
+    width: 80%;
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      height: 55px;
+      margin: 0;
+
+      li {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 110px;
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      li.selected,
+      li:hover {
+        border-bottom: 5px solid #000;
+      }
+    }
+  }
+}
